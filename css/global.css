@@ -27,4 +27,12 @@ img {
   --100: #fd98ab;
   --150: #701c1b;
   --200: #2c030a;
+
+  /* TOKENS */
+  /* text */
+  --hero: var(--200);
+  --large_text: var(--black);
+  --body: var(--black);
+  --body_inverted: var(--white);
+  --form_text: var(--darkgrey);
 }
