@@ -1,0 +1,27 @@
+/*************** v Reset v *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*************** ^ Reset ^ *********************/
+
+/* GALLERY GRID CSS */
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-self: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  padding: 15px;
+  margin: 50px;
+}
