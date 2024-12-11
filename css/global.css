@@ -58,3 +58,36 @@ img {
   --button_radius: 24;
   --img_radius: 6;
 }
+
+/* TYPOGRAPHY */
+/* Fonts */
+@font-face {
+  font-family: body;
+  src: url("../fonts/Oxygen-Regular.woff");
+  color: var(--body);
+  font-size: 1rem;
+}
+
+@font-face {
+  font-family: hero;
+  src: url("../fonts/Recoleta-SemiBold.woff");
+  color: var(--hero);
+}
+
+@font-face {
+  font-family: text-xxl;
+  src: url("../fonts/Recoleta-Medium.woff");
+  color: var(--large_text);
+}
+
+@font-face {
+  font-family: text-xl;
+  src: url("../fonts/Recoleta-Medium.woff");
+  color: var(--large_text);
+}
+
+@font-face {
+  font-family: text-l;
+  src: url("../fonts/Recoleta-Regular.woff");
+  color: var(--large_text);
+}
