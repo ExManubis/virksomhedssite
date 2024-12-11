@@ -51,4 +51,10 @@ img {
   --button_bg: var(--25);
   --button_bg_inverted: var(--150);
   --section_bg: var(--100);
+  --menu_bg: var(--100);
+
+  /* RADIUS */
+  --form_radius: 24;
+  --button_radius: 24;
+  --img_radius: 6;
 }
