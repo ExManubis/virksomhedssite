@@ -43,4 +43,12 @@ img {
   /* shadows */
   --button_shadow: var(--black);
   --form_shadow: var(--black);
+
+  /* background */
+  --body_bg_gradient_1: var(--50);
+  --body_bg_gradient_2: var(--00);
+  --form_bg: var(--white);
+  --button_bg: var(--25);
+  --button_bg_inverted: var(--150);
+  --section_bg: var(--100);
 }
