@@ -10,3 +10,21 @@ img {
   height: auto;
   display: block;
 }
+
+/* GLOBAL VARIABELS */
+:root {
+  /* COLORSCHEME */
+  /* PRIMITIVES */
+  /* grey */
+  --white: #fff9f6;
+  --darkgrey: #3c3c3c;
+  --black: #151414;
+
+  /* red */
+  --00: #fcd1bf;
+  --25: #f8e7e9;
+  --50: #f3c9cc;
+  --100: #fd98ab;
+  --150: #701c1b;
+  --200: #2c030a;
+}
