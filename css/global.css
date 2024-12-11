@@ -39,4 +39,8 @@ img {
   /* borders */
   --portrait_border: var(--white);
   --button_border: var(--black);
+
+  /* shadows */
+  --button_shadow: var(--black);
+  --form_shadow: var(--black);
 }
