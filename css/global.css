@@ -1,0 +1,93 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* GLOBAL VARIABELS */
+:root {
+  /* COLORSCHEME */
+  /* PRIMITIVES */
+  /* grey */
+  --white: #fff9f6;
+  --darkgrey: #3c3c3c;
+  --black: #151414;
+
+  /* red */
+  --00: #fcd1bf;
+  --25: #f8e7e9;
+  --50: #f3c9cc;
+  --100: #fd98ab;
+  --150: #701c1b;
+  --200: #2c030a;
+
+  /* TOKENS */
+  /* text */
+  --hero: var(--200);
+  --large_text: var(--black);
+  --body: var(--black);
+  --body_inverted: var(--white);
+  --form_text: var(--darkgrey);
+
+  /* borders */
+  --portrait_border: var(--white);
+  --button_border: var(--black);
+
+  /* shadows */
+  --button_shadow: var(--black);
+  --form_shadow: var(--black);
+
+  /* background */
+  --body_bg_gradient_1: var(--50);
+  --body_bg_gradient_2: var(--00);
+  --form_bg: var(--white);
+  --button_bg: var(--25);
+  --button_bg_inverted: var(--150);
+  --section_bg: var(--100);
+  --menu_bg: var(--100);
+
+  /* RADIUS */
+  --form_radius: 24;
+  --button_radius: 24;
+  --img_radius: 6;
+}
+
+/* TYPOGRAPHY */
+/* Fonts */
+@font-face {
+  font-family: body;
+  src: url("../fonts/Oxygen-Regular.woff");
+  color: var(--body);
+  font-size: 1rem;
+}
+
+@font-face {
+  font-family: hero;
+  src: url("../fonts/Recoleta-SemiBold.woff");
+  color: var(--hero);
+}
+
+@font-face {
+  font-family: text-xxl;
+  src: url("../fonts/Recoleta-Medium.woff");
+  color: var(--large_text);
+}
+
+@font-face {
+  font-family: text-xl;
+  src: url("../fonts/Recoleta-Medium.woff");
+  color: var(--large_text);
+}
+
+@font-face {
+  font-family: text-l;
+  src: url("../fonts/Recoleta-Regular.woff");
+  color: var(--large_text);
+}
