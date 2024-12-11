@@ -35,4 +35,8 @@ img {
   --body: var(--black);
   --body_inverted: var(--white);
   --form_text: var(--darkgrey);
+
+  /* borders */
+  --portrait_border: var(--white);
+  --button_border: var(--black);
 }
