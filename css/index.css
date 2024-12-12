@@ -11,3 +11,22 @@
   text-align: center;
   padding: 2vh 0;
 }
+
+.lottie_section {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 2vh;
+}
+
+.lottie_header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.lottie_player {
+  margin: auto;
+}
+
+.lottie_callout {
+  text-align: center;
+}
