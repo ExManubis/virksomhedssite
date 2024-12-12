@@ -2,3 +2,6 @@
 
 # Video files
 *.mp4
+
+# MacOS
+.DS_Store
