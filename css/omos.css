@@ -28,7 +28,7 @@ img {
 }
 
 .gallery .info_kort {
-  width: 20vw;
+  width: 18vw;
   height: 40vh;
   min-width: 200px;
   min-height: 300px;
@@ -55,6 +55,7 @@ img {
   grid-template-columns: 1fr;
   text-align: center;
   justify-self: center;
+  padding-bottom: 10px;
 }
 
 /* GALLERY GRID WEBSITE CSS */
@@ -90,6 +91,9 @@ h1 {
   font-family: text-xxl;
   src: url("../fonts/Recoleta-Medium.woff");
   color: var(--large_text);
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 h2 {
