@@ -3,6 +3,8 @@ const path = document.querySelector(".menu_path");
 const menuIcon = document.querySelector(".menu_icon");
 const menuLinks = document.querySelector(".menu_links");
 const form = document.querySelector(".email_form");
+const trans = document.querySelector(".menu_transition");
+const wrapper = document.querySelector(".menu_wrapper");
 
 // VARIABLES
 let toggle = false;
@@ -19,7 +21,8 @@ function animate() {
   if (toggle) {
     y = linearInterpol(y, 0, 0.035).toFixed(2);
     c = linearInterpol(c, 0, 0.065).toFixed(2);
-    form.classList.add("hidden");
+    trans.classList.add("active");
+    wrapper.classList.add("active");
     path.setAttribute("stroke-width", "5px");
     path.setAttribute("fill", "#701C1B");
     path.setAttribute(
@@ -36,7 +39,8 @@ function animate() {
     path.setAttribute("stroke-width", "0px");
     setTimeout(() => {
       path.setAttribute("fill", "#F8CDC4");
-      form.classList.remove("hidden");
+      trans.classList.remove("active");
+      wrapper.classList.remove("active");
     }, 2000);
   }
 
