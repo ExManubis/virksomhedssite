@@ -11,17 +11,43 @@ img {
 }
 /*************** ^ Reset ^ *********************/
 
-/* GALLERY GRID CSS */
-.grid-1 {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-self: center;
-}
+/* GALLERY GRID WEBSITE CSS */
+/* @media (min-width: 800px) {
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    padding: 15px;
+    margin: 50px;
+  }
+} */
+
+/* forsøg på scroll funtion i mobilsite */
 
 .gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  width: 100%;
-  padding: 15px;
-  margin: 50px;
+  max-height: 200px;
+  border: 1px solid white;
+  display: flex;
+  overflow-x: auto;
+}
+
+.gallery::-webkit-scrollbar {
+  width: 0;
+}
+
+.gallery .info_kort {
+  min-width: 110px;
+  min-height: 110px;
+  line-height: 30px;
+  text-align: center;
+  background-color: red;
+}
+
+.info_kort {
 }
