@@ -77,7 +77,7 @@ img {
 
 @font-face {
   font-family: text-xxl;
-  src: url("../fonts/Recoleta-Medium.woff");
+  src: url("../fonts/Recoleta-Regular.woff");
   color: var(--large_text);
 }
 
@@ -96,18 +96,18 @@ img {
 /* SECTIONS */
 html {
   height: 100%;
-}
-
-body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
   background: linear-gradient(
     to bottom right,
     var(--body_bg_gradient_1) 0%,
     var(--body_bg_gradient_2) 50%,
     var(--body_bg_gradient_1) 100%
   );
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 nav {
@@ -141,6 +141,14 @@ a:hover {
 h1 {
   font-family: hero;
   font-size: 4rem;
+}
+
+h2 {
+  font-family: text-xxl;
+}
+
+h3 {
+  font-family: text-xl;
 }
 
 /* MENU */
@@ -185,14 +193,14 @@ h1 {
   transition: 1s;
 }
 
-.menu_icon.active .line:nth-child(2) {
+.menu_icon.active .line:nth-child(3) {
   bottom: 20%;
   transform: rotate(-45deg);
   background-color: #fbcfc1;
   transition: 1s;
 }
 
-.menu_icon.active .line:nth-child(3) {
+.menu_icon.active .line:nth-child(2) {
   opacity: 0;
   transition: 0.1s;
 }
