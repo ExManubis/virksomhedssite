@@ -11,32 +11,16 @@ img {
 }
 /*************** ^ Reset ^ *********************/
 
-/* GALLERY GRID WEBSITE CSS */
-@media (min-width: 800px) {
-  .grid-1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-self: center;
-  }
-
-  .gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 100%;
-    padding: 15px;
-    margin: 50px;
-  }
-}
-
 /* ---- forsøg på scroll funtion i mobilsite ---- */
 .gallery {
   max-height: 290px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   display: flex;
   overflow-x: auto;
   overflow-y: hidden;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+  margin-left: 10px;
 }
 
 .gallery::-webkit-scrollbar {
@@ -50,6 +34,7 @@ img {
   min-height: 300px;
   line-height: 25px;
   text-align: center;
+  align-items: center;
 }
 
 .info_kort {
@@ -57,8 +42,47 @@ img {
   text-align: center;
 }
 
+.info_kort img {
+  width: 80%; /* Sørg for at passe inden for kortet */
+  height: 80%; /* Bevar fast højde */
+  max-height: 160px; /* Begræns billedhøjden */
+  object-fit: contain;
+  margin: auto;
+}
+
 .grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
   text-align: center;
+  justify-self: center;
+}
+
+/* GALLERY GRID WEBSITE CSS */
+@media (min-width: 800px) {
+  .grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self: center;
+  }
+
+  .gallery {
+    display: flex;
+    max-height: 300px;
+    width: 100%;
+    height: 80vh;
+    margin: 0px;
+  }
+
+  .info_kort {
+    height: 600px;
+    align-content: flex-start;
+  }
+}
+
+@media (min-width: 1000px) {
+  .gallery {
+    justify-content: center;
+  }
 }
 
 /* ------ FONTE ------ */
