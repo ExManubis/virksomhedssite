@@ -93,9 +93,5 @@ img {
 }
 
 body {
-  background-image: linear-gradient(
-    to bottom right,
-    var(--body_bg_gradient_1),
-    var(--body_bg_gradient_2)
-  );
+  background-image: linear-gradient(to bottom right, var(--body_bg_gradient_1), var(--body_bg_gradient_2));
 }
