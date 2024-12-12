@@ -343,7 +343,6 @@ h3 {
   box-shadow: none;
 }
 
-
 @media (min-width: 800px) {
   .menu_icon {
     display: none;
@@ -378,7 +377,8 @@ h3 {
   .menu_list a:visited {
     text-decoration: none;
   }
-=======
+}
+
 /* FOOTER */
 footer {
   padding: 10vh 5vw;
@@ -462,5 +462,4 @@ footer {
   text-decoration: none;
   font-family: "text-l";
   color: #151414;
-
 }
