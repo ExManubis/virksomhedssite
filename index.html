@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F8CEC4" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/index.css" />
     <title>HeyBOOB</title>
@@ -14,12 +15,57 @@
           <img src="imgs/logo.svg" alt="Logo" class="logo" />
         </a>
         <div class="menu_icon">
-          <div class="line" id="line_1"></div>
-          <div class="line" id="line_2"></div>
-          <div class="line" id="line_3"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
       </nav>
-      <h1>Hey BOOB.</h1>
+      <div class="menu_wrapper">
+        <svg
+          class="menu_transition"
+          viewbox="0 0 100 100"
+          preserveAspectRatio="none"
+        >
+          <path
+            class="menu_path"
+            stroke="#701C1B"
+            fill="#701C1B"
+            stroke-width="3px"
+            vector-effect="non-scaling-stroke"
+            d="M 0 100 L 0 100 100 100 100 100 C 50 100, 50 100, 0 100"
+          ></path>
+        </svg>
+
+        <ul class="menu_links">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="#">Vores Misson</a></li>
+          <li><a href="#">Støt Os</a></li>
+          <li><a href="#">Om Os</a></li>
+        </ul>
+      </div>
+      <div class="hero">
+        <h1>Hey BOOB.</h1>
+        <h2 class="h2_reg">
+          HeyBOOB er en gratis app, der kan hjælpe dig med at opdage brystkræft
+          i tide.
+        </h2>
+        <h3>
+          Skriv dig op. <br />
+          Så hjælper du HeyBOOB og bliver blandt de første der får at vide når
+          vores app er i luften.
+        </h3>
+        <br />
+        <div class="email_form">
+          <form action="#" class="email_form">
+            <input type="text" placeholder="Skriv dit navn" class="input" />
+            <br />
+            <input type="email" placeholder="Skriv din email" class="input" />
+            <br />
+            <input type="submit" class="button" value="Send" />
+          </form>
+        </div>
+      </div>
+      <script src="js/menu.js"></script>
     </main>
     <footer></footer>
   </body>
