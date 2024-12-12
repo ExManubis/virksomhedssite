@@ -14,7 +14,7 @@ img {
 h1 {
   font-family: "hero";
   text-align: center;
-  padding-bottom: 6%;
+  padding-bottom: 8%;
   padding-top: 6%;
   margin-left: 10vw;
   margin-right: 10vw;
@@ -29,35 +29,68 @@ h2 {
 }
 P {
   font-family: "body";
-  padding-bottom: 3%;
+  padding-bottom: 10%;
   margin-left: 10vw;
   margin-right: 10vw;
   line-height: 150%;
 }
 
-.amb_billede {
+.malina_billede img {
+  display: grid;
   height: auto;
   width: 60%;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin: auto;
   padding-top: 4%;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 .frivillig_billede {
   height: auto;
   width: 60%;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin: auto;
   padding-top: 4%;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
 .amb_billede2 {
   height: auto;
   width: 60%;
+  margin: auto;
+  padding-top: 4%;
+  padding-bottom: 10%;
+}
+
+.amba {
+  font-family: "body";
+  padding-bottom: 10%;
   margin-left: 10vw;
   margin-right: 10vw;
-  padding-top: 4%;
-  padding-bottom: 5%;
+  line-height: 150%;
+  text-align: center;
+}
+
+.tak {
+  font-family: "body";
+  padding-bottom: 10%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  line-height: 150%;
+  text-align: center;
+}
+
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.facebook img {
+  width: 12%;
+  height: auto;
+  margin-left: 80%;
+  border-radius: var(--img_radius);
+}
+
+.instagram img {
+  width: 12%;
+  height: auto;
 }
