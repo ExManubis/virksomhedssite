@@ -165,10 +165,11 @@ h3 {
   height: auto;
   width: 4rem;
   margin: 1vh;
-  z-index: 4;
+  z-index: 3;
 }
 
 .menu_icon {
+  z-index: 3;
   position: relative;
   margin: 1vh;
   width: 10vh;
@@ -217,18 +218,29 @@ h3 {
 .menu_wrapper {
   position: fixed;
   width: 100%;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
 
+.menu_wrapper.active {
+  display: flex;
+  z-index: 2;
+}
+
 .menu_transition {
+  display: none;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+.menu_transition.active {
+  display: unset;
+  z-index: 2;
 }
 
 .menu_links {
@@ -240,7 +252,7 @@ h3 {
   list-style: none;
   opacity: 0;
   transition: 0.5s;
-  z-index: 5;
+  z-index: 3;
   pointer-events: none;
 }
 
@@ -291,7 +303,7 @@ h3 {
   box-shadow: 2px 3px var(--form_shadow);
 }
 
-input:focus {
+.email_form input:focus {
   outline: 1px solid var(--button_border);
 }
 
@@ -315,4 +327,89 @@ input:focus {
 .button:hover {
   transform: translateY(5%) translateX(5%);
   box-shadow: none;
+}
+
+/* FOOTER */
+footer {
+  padding: 10vh 5vw;
+}
+
+.footer_logo {
+  margin: auto;
+  width: 10vh;
+}
+
+.footer_text {
+  margin-top: 2vh;
+  font-family: "text-l";
+  text-align: center;
+}
+
+.footer_input_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.footer_input {
+  width: 80vw;
+  max-width: 300px;
+  height: 5vh;
+  font-family: "text-l";
+  font-size: 1rem;
+  color: black;
+  z-index: 1;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  background: transparent;
+  margin: 2vw;
+  padding-top: 2vh;
+}
+
+.footer_input_container input::placeholder {
+  color: #151414;
+}
+
+.footer_input_container input:focus {
+  outline: none;
+}
+
+.footer_button {
+  z-index: 1;
+  margin: auto;
+  background-color: transparent;
+  font-family: "text-l";
+  color: var(--button_text);
+  font-size: 1rem;
+  border-radius: var(--button_radius);
+  border: 1px solid var(--button_border);
+  width: 40vw;
+  max-width: 200px;
+  height: 5vh;
+  max-height: 40px;
+  box-shadow: 2px 3px var(--button_shadow);
+  transition:
+    0.5s transform,
+    0.75s box-shadow;
+}
+
+.footer_button:hover {
+  transform: translateY(5%) translateX(5%);
+  box-shadow: none;
+}
+
+.footer_contact {
+  padding: 2vh;
+  margin: auto;
+  text-align: center;
+}
+
+.footer_contact a {
+  text-decoration: none;
+  font-family: "text-l";
+  color: #151414;
 }
