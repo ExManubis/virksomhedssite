@@ -35,10 +35,13 @@ img {
   --body: var(--black);
   --body_inverted: var(--white);
   --form_text: var(--darkgrey);
-
-  /* borders */
+  --burger_menu_link: var(--00);
+  --burger_menu_link_hover: var(--25); /* borders */
   --portrait_border: var(--white);
   --button_border: var(--black);
+
+  /* icons */
+  --burger_menu_icon: var(--00);
 
   /* shadows */
   --button_shadow: var(--black);
@@ -126,7 +129,6 @@ nav {
 /* LINKS */
 a {
   text-decoration: none;
-  color: #fcd0bf;
 }
 
 a:visited {
@@ -163,7 +165,8 @@ h3 {
 .menu_icon {
   position: relative;
   margin: 1vh;
-  width: 10vw;
+  width: 10vh;
+  max-width: 40px;
   height: 2rem;
   display: flex;
   flex-direction: column;
@@ -187,16 +190,16 @@ h3 {
 }
 
 .menu_icon.active .line:nth-child(1) {
-  top: 40%;
+  top: 45%;
   transform: rotate(45deg);
-  background-color: #fbcfc1;
+  background-color: var(--burger_menu_icon);
   transition: 1s;
 }
 
 .menu_icon.active .line:nth-child(3) {
   bottom: 20%;
   transform: rotate(-45deg);
-  background-color: #fbcfc1;
+  background-color: var(--burger_menu_icon);
   transition: 1s;
 }
 
@@ -243,4 +246,17 @@ h3 {
 .menu_links.active {
   opacity: 1;
   pointer-events: all;
+}
+
+.menu_links a {
+  text-decoration: none;
+  color: var(--burger_menu_link);
+}
+
+.menu_links a:hover {
+  color: var(--burger_menu_link_hover);
+}
+
+.menu_links a:visited {
+  text-decoration: none;
 }

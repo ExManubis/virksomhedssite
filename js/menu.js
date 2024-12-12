@@ -25,8 +25,8 @@ function animate() {
       `M 0 ${y} L 0 100 100 100 100 ${y} C ${50} ${c}, ${50} ${c}, 0 ${y}`,
     );
   } else {
-    y = linearInterpol(y, 105, 0.025).toFixed(2);
-    c = linearInterpol(c, 105, 0.045).toFixed(2);
+    y = linearInterpol(y, 105, 0.015).toFixed(2);
+    c = linearInterpol(c, 105, 0.025).toFixed(2);
     path.setAttribute(
       "d",
       `M 0 ${y} L 0 100 100 100 100 ${y} C ${50} ${c}, ${50} ${c}, 0 ${y}`,
@@ -34,7 +34,7 @@ function animate() {
     path.setAttribute("stroke-width", "0px");
     setTimeout(() => {
       path.setAttribute("fill", "#F8CDC4");
-    }, 1000);
+    }, 2000);
   }
 
   requestAnimationFrame(animate);
