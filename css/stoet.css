@@ -12,29 +12,48 @@ img {
 }
 
 h1 {
-  font-family: "Recoleta-SemiBold", sans-serif;
-  color: #2c030a;
+  font-family: "hero";
   text-align: center;
   padding-bottom: 6%;
+  padding-top: 6%;
   margin-left: 10vw;
   margin-right: 10vw;
 }
 
 h2 {
-  font-family: "Recoleta-Medium", sans-serif;
+  font-family: "text-xxl";
   text-align: center;
   padding-bottom: 3%;
   margin-left: 10vw;
   margin-right: 10vw;
 }
 P {
-  font-family: "Oxygen-Regular", sans-serif;
+  font-family: "body";
   padding-bottom: 3%;
   margin-left: 10vw;
   margin-right: 10vw;
+  line-height: 150%;
 }
 
 .amb_billede {
+  height: auto;
+  width: 60%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+.frivillig_billede {
+  height: auto;
+  width: 60%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+.amb_billede2 {
   height: auto;
   width: 60%;
   margin-left: 10vw;
