@@ -46,3 +46,79 @@
 .lottie_list li {
   margin: 2vh 5vw;
 }
+
+.kvinder_section {
+  position: relative;
+  background-color: var(--section_bg);
+  padding-top: 10vh;
+  padding-bottom: 15vh;
+}
+
+.custom-shape-divider-bottom-1734045432 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1734045432 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-1734045432 .shape-fill {
+  fill: #f9cec3;
+}
+
+.custom-shape-divider-top-1734045582 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1734045582 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-top-1734045582 .shape-fill {
+  fill: #fcd1bf;
+}
+
+.kvinder_section img {
+  height: 12.5vh;
+  margin: 2vh auto;
+}
+
+.h2_kvinder {
+  text-align: center;
+  margin: 5vh auto;
+  font-size: 2rem;
+}
+
+.kvinder_flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.kvinder_section ul {
+  margin: 5vh 10vw;
+}
+
+.kvinder_body {
+  font-family: "body";
+  font-size: 1.25rem;
+  text-align: justify;
+  margin: 0 10vw;
+  hyphens: auto;
+}
