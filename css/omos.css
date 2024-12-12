@@ -31,10 +31,13 @@ img {
 /* forsøg på scroll funtion i mobilsite */
 
 .gallery {
-  max-height: 200px;
+  max-height: 260px;
   border: 1px solid white;
   display: flex;
   overflow-x: auto;
+
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .gallery::-webkit-scrollbar {
@@ -42,12 +45,43 @@ img {
 }
 
 .gallery .info_kort {
-  min-width: 110px;
+  min-width: 150px;
   min-height: 110px;
-  line-height: 30px;
+  line-height: 25px;
   text-align: center;
-  background-color: red;
 }
 
 .info_kort {
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-1 {
+  text-align: center;
+}
+
+/* ------ FONTE ------ */
+h1 {
+  font-family: text-xxl;
+  src: url("../fonts/Recoleta-Medium.woff");
+  color: var(--large_text);
+}
+
+h2 {
+  font-family: text-xl;
+  src: url("../fonts/Recoleta-Medium.woff");
+  color: var(--large_text);
+}
+
+h3 {
+  font-family: text-l;
+  src: url("../fonts/Recoleta-Regular.woff");
+  color: var(--large_text);
+}
+
+p {
+  font-family: body;
+  src: url("../fonts/Oxygen-Regular.woff");
+  color: var(--body);
+  font-size: 1rem;
 }

@@ -75,27 +75,26 @@ img {
 }
 
 @font-face {
+  /* kommentar til vic: h1 */
   font-family: text-xxl;
   src: url("../fonts/Recoleta-Medium.woff");
   color: var(--large_text);
 }
 
 @font-face {
+  /* kommentar til vic: h2 */
   font-family: text-xl;
   src: url("../fonts/Recoleta-Medium.woff");
   color: var(--large_text);
 }
 
 @font-face {
+  /* kommentar til vic: h3 */
   font-family: text-l;
   src: url("../fonts/Recoleta-Regular.woff");
   color: var(--large_text);
 }
 
 body {
-  background-image: linear-gradient(
-    to bottom right,
-    var(--body_bg_gradient_1),
-    var(--body_bg_gradient_2)
-  );
+  background-image: linear-gradient(to bottom right, var(--body_bg_gradient_1), var(--body_bg_gradient_2));
 }
