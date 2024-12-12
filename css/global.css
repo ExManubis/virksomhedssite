@@ -120,6 +120,7 @@ html {
     var(--body_bg_gradient_2) 50%,
     var(--body_bg_gradient_1) 100%
   );
+  background-attachment: fixed;
 }
 
 body {
