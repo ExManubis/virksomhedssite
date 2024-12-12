@@ -64,6 +64,7 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     justify-self: center;
+    padding-top: 50px;
   }
 
   .gallery {
