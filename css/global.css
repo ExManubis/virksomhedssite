@@ -25,6 +25,7 @@ img {
   --25: #f8e7e9;
   --50: #f3c9cc;
   --100: #fd98ab;
+  --125: #c45756;
   --150: #701c1b;
   --200: #2c030a;
 
@@ -40,6 +41,8 @@ img {
   --burger_menu_link_hover: var(--25); /* borders */
   --portrait_border: var(--white);
   --button_border: var(--black);
+  --menu_item: var(--150);
+  --menu_item_hover: var(--125);
 
   /* icons */
   --burger_menu_icon: var(--00);
@@ -100,6 +103,12 @@ img {
 @font-face {
   font-family: text-input;
   src: url("../fonts/Recoleta-Regular.woff");
+}
+
+@font-face {
+  font-family: menu-item;
+  src: url("../fonts/Recoleta-Bold.woff");
+  color: var(--);
 }
 
 /* SECTIONS */
@@ -166,6 +175,10 @@ h3 {
   width: 4rem;
   margin: 1vh;
   z-index: 4;
+}
+
+.menu_list {
+  display: none;
 }
 
 .menu_icon {
@@ -315,4 +328,40 @@ input:focus {
 .button:hover {
   transform: translateY(5%) translateX(5%);
   box-shadow: none;
+}
+
+@media (min-width: 800px) {
+  .menu_icon {
+    display: none;
+  }
+
+  .menu_list {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+  }
+
+  .menu_list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu_list a {
+    text-decoration: none;
+    padding: 1vw;
+    font-family: "menu-item";
+    color: var(--menu_item);
+    font-size: clamp(1.5rem, 2rem, 3rem);
+    transition: 0.5s;
+  }
+
+  .menu_list a:hover {
+    color: var(--menu_item_hover);
+    transition: 0.5s;
+  }
+
+  .menu_list a:visited {
+    text-decoration: none;
+  }
 }
