@@ -2,6 +2,7 @@
 const path = document.querySelector(".menu_path");
 const menuIcon = document.querySelector(".menu_icon");
 const menuLinks = document.querySelector(".menu_links");
+const form = document.querySelector(".email_form");
 
 // VARIABLES
 let toggle = false;
@@ -18,6 +19,7 @@ function animate() {
   if (toggle) {
     y = linearInterpol(y, 0, 0.035).toFixed(2);
     c = linearInterpol(c, 0, 0.065).toFixed(2);
+    form.classList.add("hidden");
     path.setAttribute("stroke-width", "5px");
     path.setAttribute("fill", "#701C1B");
     path.setAttribute(
@@ -34,6 +36,7 @@ function animate() {
     path.setAttribute("stroke-width", "0px");
     setTimeout(() => {
       path.setAttribute("fill", "#F8CDC4");
+      form.classList.remove("hidden");
     }, 2000);
   }
 

@@ -35,6 +35,7 @@ img {
   --body: var(--black);
   --body_inverted: var(--white);
   --form_text: var(--darkgrey);
+  --button_text: var(--darkgrey);
   --burger_menu_link: var(--00);
   --burger_menu_link_hover: var(--25); /* borders */
   --portrait_border: var(--white);
@@ -58,9 +59,9 @@ img {
   --menu_icon: var(--200);
 
   /* RADIUS */
-  --form_radius: 24;
-  --button_radius: 24;
-  --img_radius: 6;
+  --form_radius: 24px;
+  --button_radius: 24px;
+  --img_radius: 6px;
 }
 
 /* TYPOGRAPHY */
@@ -94,6 +95,11 @@ img {
   font-family: text-l;
   src: url("../fonts/Recoleta-Regular.woff");
   color: var(--large_text);
+}
+
+@font-face {
+  font-family: text-input;
+  src: url("../fonts/Recoleta-Regular.woff");
 }
 
 /* SECTIONS */
@@ -142,7 +148,7 @@ a:hover {
 /* TEXT */
 h1 {
   font-family: hero;
-  font-size: 4rem;
+  font-size: clamp(2rem, 3.5rem, 6rem);
 }
 
 h2 {
@@ -234,7 +240,7 @@ h3 {
   list-style: none;
   opacity: 0;
   transition: 0.5s;
-  z-index: 4;
+  z-index: 5;
   pointer-events: none;
 }
 
@@ -259,4 +265,54 @@ h3 {
 
 .menu_links a:visited {
   text-decoration: none;
+}
+
+/* INPUT */
+.email_form {
+  z-index: 1;
+}
+
+.email_form.hidden {
+  display: none;
+}
+
+.input {
+  z-index: 1;
+  width: 70vw;
+  height: 5vh;
+  font-family: "text-input";
+  font-size: 1rem;
+  border: 1px solid var(--button_border);
+  border-radius: var(--form_radius);
+  background-color: var(--form_bg);
+  color: var(--form_text);
+  margin: 1vh;
+  padding-left: 1vh;
+  box-shadow: 2px 3px var(--form_shadow);
+}
+
+input:focus {
+  outline: 1px solid var(--button_border);
+}
+
+.button {
+  z-index: 1;
+  margin-top: 1vh;
+  width: 25vw;
+  height: 5vh;
+  border: 1px solid var(--button_border);
+  border-radius: var(--button_radius);
+  background-color: var(--button_bg);
+  color: var(--button_text);
+  font-family: "text-input";
+  font-size: 1rem;
+  box-shadow: 2px 3px var(--button_shadow);
+  transition:
+    0.5s transform,
+    0.75s box-shadow;
+}
+
+.button:hover {
+  transform: translateY(5%) translateX(5%);
+  box-shadow: none;
 }
