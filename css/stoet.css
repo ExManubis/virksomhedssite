@@ -1,0 +1,44 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1 {
+  font-family: "Recoleta-SemiBold", sans-serif;
+  color: #2c030a;
+  text-align: center;
+  padding-bottom: 6%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+h2 {
+  font-family: "Recoleta-Medium", sans-serif;
+  text-align: center;
+  padding-bottom: 3%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+P {
+  font-family: "Oxygen-Regular", sans-serif;
+  padding-bottom: 3%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.amb_billede {
+  height: auto;
+  width: 60%;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
