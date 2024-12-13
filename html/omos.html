@@ -10,12 +10,37 @@
     <link rel="stylesheet" href="../css/global.css" />
   </head>
   <body>
-    <header>
-      <!-- her skal logo være -->
-      <!-- her skal menu være -->
-    </header>
-
     <main>
+      <nav id="navbar">
+        <a href="../index.html">
+          <img src="../imgs/logo.svg" alt="Logo" class="logo" />
+        </a>
+        <div class="menu_icon">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="menu_list">
+          <ul>
+            <li><a href="mission.html">Vores Mission</a></li>
+            <li><a href="stoet.html">Støt Os</a></li>
+            <li><a href="omos.html">Om Os</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="menu_wrapper">
+        <svg class="menu_transition" viewbox="0 0 100 100" preserveAspectRatio="none">
+          <path class="menu_path" stroke="#701C1B" fill="#701C1B" stroke-width="3px" vector-effect="non-scaling-stroke" d="M 0 100 L 0 100 100 100 100 100 C 50 100, 50 100, 0 100"></path>
+        </svg>
+
+        <ul class="menu_links">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="mission.html">Vores Misson</a></li>
+          <li><a href="stoet.html">Støt Os</a></li>
+          <li><a href="omos.html">Om Os</a></li>
+        </ul>
+      </div>
+
       <h1>Bag om HeyBOOB</h1>
 
       <div class="grid-1">
@@ -152,6 +177,9 @@
       <div>
         <!-- her skal være kontakt os CTA knap -->
       </div>
+
+      <script src="../js/menu.js"></script>
+      <script src="../js/nav.js"></script>
     </main>
 
     <footer>
