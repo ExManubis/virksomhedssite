@@ -557,6 +557,17 @@ footer {
   transform: translateY(-10%);
 }
 
+.footer_some {
+  display: flex;
+  flex-direction: row;
+  margin: 2vh auto;
+  justify-content: center;
+}
+
+.footer_some_icon {
+  width: 7.5vh;
+}
+
 @media screen and (min-width: 800px) {
   .footer_container {
     display: grid;
@@ -602,5 +613,6 @@ footer {
   .footer_contact {
     grid-column: 3;
     grid-row: 1 / span 3;
+    padding-top: 5vh;
   }
 }
