@@ -7,9 +7,17 @@
   margin: 0 10vw;
 }
 
+@media screen and (min-width: 800pc) {
+  .hero {
+    margin: 0 20vw;
+  }
+}
+
 .h2_reg {
   text-align: center;
+  font-size: clamp(1.5rem, 2vw, 2.25rem);
   padding: 2vh 0;
+  margin: 5vh auto;
 }
 
 .lottie_section {
