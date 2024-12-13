@@ -98,6 +98,7 @@
 .kvinder_section img {
   height: 12.5vh;
   margin: 2vh auto;
+  padding: 1.5vw;
 }
 
 .h2_kvinder {
@@ -109,6 +110,8 @@
 .kvinder_flex {
   display: flex;
   flex-direction: row;
+  margin: auto;
+  justify-content: center;
 }
 
 .kvinder_section ul {
@@ -121,4 +124,32 @@
   text-align: justify;
   margin: 0 10vw;
   hyphens: auto;
+}
+
+.help_section {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh auto;
+}
+
+.h2_help {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.help_body {
+  margin: 5vw;
+  font-family: "body";
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.5;
+}
+
+.email_form_help {
+  margin: 1vh auto;
+}
+
+#help_button {
+  margin: 2vh 25vw;
+  justify-content: space-between;
 }

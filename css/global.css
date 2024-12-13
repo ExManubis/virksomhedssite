@@ -299,10 +299,6 @@ h3 {
   z-index: 1;
 }
 
-.email_form.hidden {
-  display: none;
-}
-
 .input {
   z-index: 1;
   width: 70vw;
