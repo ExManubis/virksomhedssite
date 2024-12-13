@@ -230,6 +230,8 @@
 }
 
 .email_form_help {
+  display: flex;
+  flex-direction: column;
   margin: 1vh auto;
 }
 
@@ -269,7 +271,7 @@
   .email_form_help input {
     width: 25vw;
     height: 4vh;
-    margin: 0 auto 1.5vh auto;
+    margin: 0 auto 0 auto;
     font-size: 1rem;
   }
 
