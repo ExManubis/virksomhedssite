@@ -349,14 +349,14 @@ h3 {
 
 @media screen and (min-width: 800px) {
   .input {
-    width: 20vw;
+    width: 25vw;
     height: 3.5rem;
     margin: 5vh 0.5vw;
     font-size: 1.25rem;
   }
 
   .button {
-    width: 8vw;
+    width: 12.5vw;
     height: 3.5rem;
     margin: 5vh 0.5vw;
     font-size: 1.25rem;
@@ -455,6 +455,7 @@ h3 {
 /* FOOTER */
 footer {
   padding: 10vh 5vw;
+  border-top: 1px solid var(--button_border);
 }
 
 .footer_logo {
@@ -569,6 +570,9 @@ footer {
 }
 
 @media screen and (min-width: 800px) {
+  footer {
+    margin-top: 15vh;
+  }
   .footer_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
