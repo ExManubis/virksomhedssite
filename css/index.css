@@ -1,0 +1,163 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20vh;
+  text-align: center;
+  margin: 0 10vw;
+}
+
+@media screen and (min-width: 800pc) {
+  .hero {
+    margin: 0 20vw;
+  }
+}
+
+.h2_reg {
+  text-align: center;
+  font-size: clamp(1.5rem, 2vw, 2.25rem);
+  padding: 2vh 0;
+  margin: 5vh auto;
+}
+
+.lottie_section {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 5vw;
+}
+
+.lottie_header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.lottie_player {
+  margin: auto;
+}
+
+.lottie_callout {
+  text-align: center;
+}
+
+.lottie_body {
+  font-family: "text-l";
+  font-size: 1.25rem;
+  margin: 5vh auto;
+}
+
+.lottie_list {
+  font-family: "text-l";
+  font-size: 1.25rem;
+  margin: auto 4vw;
+}
+
+.lottie_list li {
+  margin: 2vh 5vw;
+}
+
+.kvinder_section {
+  position: relative;
+  background-color: var(--section_bg);
+  padding-top: 10vh;
+  padding-bottom: 15vh;
+}
+
+.custom-shape-divider-bottom-1734045432 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1734045432 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-1734045432 .shape-fill {
+  fill: #f9cec3;
+}
+
+.custom-shape-divider-top-1734045582 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1734045582 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-top-1734045582 .shape-fill {
+  fill: #f9cec3;
+}
+
+.kvinder_section img {
+  height: 12.5vh;
+  margin: 2vh auto;
+  padding: 1.5vw;
+}
+
+.h2_kvinder {
+  text-align: center;
+  margin: 5vh auto;
+  font-size: 2rem;
+}
+
+.kvinder_flex {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+}
+
+.kvinder_section ul {
+  margin: 5vh 10vw;
+}
+
+.kvinder_body {
+  font-family: "body";
+  font-size: 1.25rem;
+  text-align: justify;
+  margin: 0 10vw;
+  hyphens: auto;
+}
+
+.help_section {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh auto;
+}
+
+.h2_help {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.help_body {
+  margin: 5vw;
+  font-family: "body";
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.5;
+}
+
+.email_form_help {
+  margin: 1vh auto;
+}
+
+#help_button {
+  margin: 2vh 25vw;
+  justify-content: space-between;
+}

@@ -3,24 +3,236 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F8CEC4" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/index.css" />
     <title>HeyBOOB</title>
   </head>
   <body>
     <main>
-      <nav>
+      <nav id="navbar">
         <a href="index.html">
           <img src="imgs/logo.svg" alt="Logo" class="logo" />
         </a>
         <div class="menu_icon">
-          <div class="line" id="line_1"></div>
-          <div class="line" id="line_2"></div>
-          <div class="line" id="line_3"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="menu_list">
+          <ul>
+            <li><a href="#">Vores Mission</a></li>
+            <li><a href="#">Støt Os</a></li>
+            <li><a href="#">Om Os</a></li>
+          </ul>
         </div>
       </nav>
-      <h1>Hey BOOB.</h1>
+      <div class="menu_wrapper">
+        <svg
+          class="menu_transition"
+          viewbox="0 0 100 100"
+          preserveAspectRatio="none"
+        >
+          <path
+            class="menu_path"
+            stroke="#701C1B"
+            fill="#701C1B"
+            stroke-width="3px"
+            vector-effect="non-scaling-stroke"
+            d="M 0 100 L 0 100 100 100 100 100 C 50 100, 50 100, 0 100"
+          ></path>
+        </svg>
+
+        <ul class="menu_links">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="#">Vores Misson</a></li>
+          <li><a href="#">Støt Os</a></li>
+          <li><a href="#">Om Os</a></li>
+        </ul>
+      </div>
+      <div class="hero">
+        <h1>Hey BOOB.</h1>
+        <h2 class="h2_reg">
+          HeyBOOB er en gratis app, der kan hjælpe dig med at opdage brystkræft
+          i tide.
+        </h2>
+        <h3>
+          Skriv dig op. Så hjælper du HeyBOOB og bliver blandt de første der får
+          at vide når vores app er i luften.
+        </h3>
+        <br />
+        <div class="email_form">
+          <form action="#" class="email_form">
+            <input type="text" placeholder="Skriv dit navn" class="input" />
+            <br />
+            <input type="email" placeholder="Skriv din email" class="input" />
+            <br />
+            <input type="submit" class="button" value="Send" />
+          </form>
+        </div>
+      </div>
+      <div class="lottie_section">
+        <h2 class="lottie_header">En app der kan redde liv.</h2>
+        <script
+          src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+          type="module"
+        ></script>
+        <dotlottie-player
+          src="https://lottie.host/0e903394-02a1-4b09-a008-99f8c5eb6cfc/csRQNTPSPQ.lottie"
+          background="transparent"
+          speed="1"
+          style="width: 80vw; height: 500px; margin: 5vh auto"
+          loop
+          autoplay
+          class="lottie-player"
+        ></dotlottie-player>
+        <h2 class="lottie_callout">
+          Ved du heller ikke hvordan du mærker efter forandringer i dit
+          brystvæv? <br />
+          <br />
+          - Det er du ikke alene om!
+        </h2>
+        <p class="lottie_body">
+          HeyBOOB er en gratis applikation, der skal give os kvinder større
+          tryghed, nutidig viden- og ikke mindst konkrete handlemuligheder!
+        </p>
+        <ul class="lottie_list">
+          <li>
+            Et værktøj, der skal hjælper dig med tidlig opsporing af
+            forandringer i dit brystvæv.
+          </li>
+          <li>
+            Et værktøj, der skal give dig konkret viden, indsigt, tryghed og
+            overblik!
+          </li>
+          <li>
+            Et værktøj, der skal give dig en månedlig påmindelse om en ny
+            rutine.
+          </li>
+          <li>
+            En rutine, der kan være med til at redde dit eller en af dine kæres
+            liv!
+          </li>
+        </ul>
+      </div>
+      <div class="kvinder_section">
+        <div class="custom-shape-divider-top-1734045582">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <div class="custom-shape-divider-bottom-1734045432">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+        <h2 class="h2_kvinder">En ud af otte kvinder...</h2>
+        <div class="kvinder_flex">
+          <div class="kvinder_flex_1">
+            <img src="imgs/women/w_1.svg" alt="" />
+            <img src="imgs/women/w_2.svg" alt="" />
+          </div>
+          <div class="kvinder_flex_2">
+            <img src="imgs/women/w_3.svg" alt="" />
+            <img src="imgs/women/w_4.svg" alt="" />
+          </div>
+          <div class="kvinder_flex_3">
+            <img src="imgs/women/w_7.svg" alt="" />
+            <img src="imgs/women/w_5.svg" alt="" />
+          </div>
+          <div class="kvinder_flex_4">
+            <img src="imgs/women/w_6.svg" alt="" />
+            <img src="imgs/women/w_8.svg" alt="" />
+          </div>
+        </div>
+        <h2 class="h2_kvinder">bliver ramt af brystkræft.</h2>
+        <ul class="lottie_list">
+          <li>5000 kvinder får brystkræft hver år.</li>
+          <li>1200 får tilbagefald.</li>
+          <li>73.000 lever med sygdommen.</li>
+        </ul>
+        <p class="kvinder_body">
+          På trods af, at der er en direkte sammenhæng imellem tidlig opdagelse
+          og overlevelse, så ved meget få af os hvordan, vi skal mærke efter
+          forandringer i vores brystvæv!
+        </p>
+      </div>
+      <div class="help_section">
+        <h2 class="h2_help">Vi har brug for din hjælp.</h2>
+        <p class="help_body">
+          Vi kan ikke gøre det alene! Vi har brug for din opbakning, så de
+          fonde, privatpersoner og investors, der støtter op om HeyBOOB
+          bekræftes i, at der er mange der efterspørger større tryghed, viden og
+          konkrete handlemuligheder.
+          <br />
+          <br />
+          Du kan hjælpe HeyBOOB på vej ved at skrive dig op, så du får en
+          mail når vi er i luften. Udfyld formularen herunder, så er du med til
+          at hjælpe HeyBOOB.
+        </p>
+        <div class="email_form_help">
+          <form action="#" class="email_form_help">
+            <input type="text" placeholder="Skriv dit navn" class="input" />
+            <br />
+            <input type="email" placeholder="Skriv din email" class="input" />
+            <br />
+            <input type="submit" class="button" id="help_button" value="Send" />
+          </form>
+        </div>
+      </div>
+      <script src="js/menu.js"></script>
+      <script src="js/nav.js"></script>
     </main>
-    <footer></footer>
+    <footer>
+      <a href="#"
+        ><img src="imgs/logo.svg" alt="HeyBOOB logo" class="footer_logo"
+      /></a>
+
+      <p class="footer_text">
+        Skriv dig op. Så hjælper du HeyBOOB og bliver blandt de første der får
+        at vide når vores app er i luften.
+      </p>
+      <div class="footer_input_container">
+        <form action="#" class="footer_input_container">
+          <input
+            type="text"
+            placeholder="Skriv dit navn"
+            class="footer_input"
+          />
+          <br />
+          <input
+            type="email"
+            placeholder="Skriv din email"
+            class="footer_input"
+          />
+          <br />
+          <input type="submit" class="footer_button" value="Send" />
+        </form>
+      </div>
+      <div class="footer_contact">
+        <h3>Kontakt</h3>
+        <p>CEO & founder, Malene Brandt</p>
+        <br />
+        <a href="mailto:malene@malenebrandt.dk">malene@malenebrandt.dk</a>
+        <br />
+        <a href="tel:+4520491050">+45 20 49 10 50</a>
+      </div>
+    </footer>
   </body>
 </html>
