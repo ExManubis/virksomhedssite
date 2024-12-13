@@ -212,6 +212,7 @@ h3 {
   height: 0.2rem;
   margin-bottom: 0.5rem;
   background-color: var(--menu_icon);
+  border-radius: 24px;
   transition: 1s;
   transform-origin: center;
 }
