@@ -34,6 +34,7 @@
 .lottie_player {
   margin: auto;
   width: 80vw;
+  height: auto;
 }
 
 .lottie_callout {
@@ -60,33 +61,41 @@
   .lottie_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+    margin: 10vh 5vw -15vh 5vw;
   }
 
   .lottie_header {
     grid-column: 2;
     grid-row: 1 / span 1;
-  }
-
-  .lottie_callout {
-    grid-column: 2;
-    grid-row: 2;
+    place-self: end center;
+    margin-bottom: 2vh;
+    padding-top: 5vh;
+    font-size: 2.5rem;
   }
 
   .lottie_body {
-    grid-column: 2;
-    grid-row: 3;
+    margin: 2vh auto;
   }
 
   .lottie_list {
-    grid-column: 2;
-    grid-row: 4;
+    margin: 0;
   }
 
-  .lottie_player {
+  .lottie-player {
     grid-column: 1;
-    grid-row: 1 / span 4;
-    width: 40vw;
+    grid-row: 1 / span 3;
+    place-self: start;
+    max-width: 80%;
+    z-index: 1;
+  }
+
+  .lottie_container {
+    grid-column: 2;
+    grid-row: 2 / span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
   }
 }
 
@@ -167,6 +176,12 @@
   text-align: justify;
   margin: 0 10vw;
   hyphens: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .kvinder_section {
+    padding-top: 20vh;
+  }
 }
 
 .help_section {
