@@ -159,7 +159,14 @@ a:hover {
 /* TEXT */
 h1 {
   font-family: hero;
-  font-size: clamp(2rem, 6rem, 6rem);
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: clamp(4rem, 6rem, 6rem);
+    color: var(--hero);
+  }
 }
 
 h2 {
@@ -397,6 +404,48 @@ h3 {
   .menu_list a:visited {
     text-decoration: none;
   }
+}
+
+/* WAVY BORDER */
+.custom-shape-divider-bottom-1734045432 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1734045432 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-bottom-1734045432 .shape-fill {
+  fill: #f9cec3;
+}
+
+.custom-shape-divider-top-1734045582 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1734045582 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 80px;
+}
+
+.custom-shape-divider-top-1734045582 .shape-fill {
+  fill: #f9cec3;
 }
 
 /* FOOTER */
