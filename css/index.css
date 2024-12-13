@@ -33,6 +33,7 @@
 
 .lottie_player {
   margin: auto;
+  width: 80vw;
 }
 
 .lottie_callout {
@@ -53,6 +54,40 @@
 
 .lottie_list li {
   margin: 2vh 5vw;
+}
+
+@media screen and (min-width: 800px) {
+  .lottie_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .lottie_header {
+    grid-column: 2;
+    grid-row: 1 / span 1;
+  }
+
+  .lottie_callout {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .lottie_body {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .lottie_list {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  .lottie_player {
+    grid-column: 1;
+    grid-row: 1 / span 4;
+    width: 40vw;
+  }
 }
 
 .kvinder_section {
