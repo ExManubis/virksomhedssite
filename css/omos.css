@@ -1,15 +1,8 @@
-/*************** v Reset v *********************/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@media (min-width: 800px) {
+  .om_hero {
+    font-size: 4.5rem;
+  }
 }
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-/*************** ^ Reset ^ *********************/
 
 /* ---- forsøg på scroll funtion i mobilsite ---- */
 .gallery {
@@ -95,12 +88,16 @@ h1 {
   text-align: center;
   padding-bottom: 20px;
   padding-top: 20px;
+  margin-top: 95px;
+  font-size: 6rem;
 }
 
 h2 {
   font-family: text-xl;
-  src: url("../fonts/Recoleta-Medium.woff");
+  src: url("../fonts/Recoleta-Bold.woff");
   color: var(--large_text);
+  font-size: 2rem;
+  padding-bottom: 25px;
 }
 
 h3 {
@@ -108,6 +105,7 @@ h3 {
   src: url("../fonts/Recoleta-Regular.woff");
   color: var(--large_text);
   font-weight: bolder;
+  padding-top: 10px;
 }
 
 p {
