@@ -554,4 +554,53 @@ footer {
 
 .footer_icon {
   width: 5vh;
+  transform: translateY(-10%);
+}
+
+@media screen and (min-width: 800px) {
+  .footer_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3 auto);
+    width: 90vw;
+  }
+
+  .footer_logo {
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    width: 10vw;
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+
+  .footer_text {
+    text-align: left;
+    font-size: 1.25rem;
+  }
+
+  .footer_input_container {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    width: 40vw;
+    margin: auto 5vw;
+  }
+
+  .footer_input {
+    max-width: 20vw;
+  }
+
+  .footer_button {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footer_forms_container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer_contact {
+    grid-column: 3;
+    grid-row: 1 / span 3;
+  }
 }
