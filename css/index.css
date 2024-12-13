@@ -156,7 +156,7 @@
 .h2_kvinder {
   text-align: center;
   margin: 5vh auto;
-  font-size: 2rem;
+  font-size: clamp(2rem, 3rem, 3rem);
 }
 
 .kvinder_flex {
@@ -181,6 +181,20 @@
 @media screen and (min-width: 800px) {
   .kvinder_section {
     padding-top: 20vh;
+  }
+
+  .kvinder_section img {
+    height: 20vh;
+  }
+
+  .kvinder_section ul {
+    place-self: center;
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .kvinder_body {
+    margin: 5vh 30vw;
   }
 }
 
