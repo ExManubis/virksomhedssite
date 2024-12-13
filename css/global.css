@@ -83,18 +83,21 @@ img {
 }
 
 @font-face {
+  /* kommentar til vic: h1 */
   font-family: text-xxl;
   src: url("../fonts/Recoleta-Regular.woff");
   color: var(--large_text);
 }
 
 @font-face {
+  /* kommentar til vic: h2 */
   font-family: text-xl;
   src: url("../fonts/Recoleta-Medium.woff");
   color: var(--large_text);
 }
 
 @font-face {
+  /* kommentar til vic: h3 */
   font-family: text-l;
   src: url("../fonts/Recoleta-Regular.woff");
   color: var(--large_text);
