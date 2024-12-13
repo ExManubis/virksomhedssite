@@ -7,17 +7,37 @@
     <link rel="stylesheet" href="../css/mission.css" />
     <link rel="stylesheet" href="../css/global.css" />
   </head>
-
   <body>
-    <header>
-      <div class="logo"></div>
-      <ul class="menu">
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </header>
     <main>
+      <nav id="navbar">
+        <a href="../index.html">
+          <img src="../imgs/logo.svg" alt="Logo" class="logo" />
+        </a>
+        <div class="menu_icon">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="menu_list">
+          <ul>
+            <li><a href="mission.html">Vores Mission</a></li>
+            <li><a href="stoet.html">Støt Os</a></li>
+            <li><a href="omos.html">Om Os</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="menu_wrapper">
+        <svg class="menu_transition" viewbox="0 0 100 100" preserveAspectRatio="none">
+          <path class="menu_path" stroke="#701C1B" fill="#701C1B" stroke-width="3px" vector-effect="non-scaling-stroke" d="M 0 100 L 0 100 100 100 100 100 C 50 100, 50 100, 0 100"></path>
+        </svg>
+
+        <ul class="menu_links">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="mission.html">Vores Misson</a></li>
+          <li><a href="stoet.html">Støt Os</a></li>
+          <li><a href="omos.html">Om Os</a></li>
+        </ul>
+      </div>
       <div class="grid_1-1">
         <div class="col">
           <h1>Vores mission</h1>
@@ -39,6 +59,8 @@
         <p class="p3">Med HeyBOOB ønsker vi at samle og dele viden, der skaber større tryghed og overblik. Vi har samlet førende eksperter på området, da vi ved at viden er magt!</p>
         <img src="../billeder/place_holder1.png" alt="billede" class="img3" />
       </div>
+      <script src="../js/menu.js"></script>
+      <script src="../js/nav.js"></script>
     </main>
     <footer></footer>
   </body>
