@@ -159,7 +159,7 @@ a:hover {
 /* TEXT */
 h1 {
   font-family: hero;
-  font-size: clamp(2rem, 3.5rem, 6rem);
+  font-size: clamp(2rem, 6rem, 6rem);
 }
 
 h2 {
@@ -168,6 +168,7 @@ h2 {
 
 h3 {
   font-family: text-xl;
+  font-size: clamp(1rem, 1.25rem, 2rem);
 }
 
 /* MENU */
@@ -333,6 +334,28 @@ h3 {
   transition:
     0.5s transform,
     0.75s box-shadow;
+}
+
+@media screen and (min-width: 800px) {
+  .input {
+    width: 20vw;
+    height: 3.5rem;
+    margin: 5vh 0.5vw;
+    font-size: 1.25rem;
+  }
+
+  .button {
+    width: 8vw;
+    height: 3.5rem;
+    margin: 5vh 0.5vw;
+    font-size: 1.25rem;
+  }
+
+  .email_form {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
 }
 
 .button:hover {
