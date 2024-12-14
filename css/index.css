@@ -276,7 +276,7 @@
   }
 
   #help_button {
-    margin: 1vh 32.5%;
+    margin: auto;
     width: 10vw;
     font-size: 1rem;
   }
