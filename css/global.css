@@ -178,7 +178,7 @@ h2 {
 
 h3 {
   font-family: text-xl;
-  font-size: clamp(1rem, 1.25rem, 2rem);
+  font-size: clamp(1rem, 1.25rem);
 }
 
 /* MENU */
@@ -322,7 +322,7 @@ h3 {
   background-color: var(--form_bg);
   color: var(--form_text);
   margin: 1vh;
-  padding-left: 1vh;
+  padding-left: 2vh;
   box-shadow: 2px 3px var(--form_shadow);
 }
 
@@ -350,16 +350,16 @@ h3 {
 @media screen and (min-width: 800px) {
   .input {
     width: 25vw;
-    height: 3.5rem;
+    height: 3rem;
     margin: 5vh 0.5vw;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .button {
     width: 12.5vw;
-    height: 3.5rem;
+    height: 3rem;
     margin: 5vh 0.5vw;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .email_form {
@@ -396,7 +396,7 @@ h3 {
     padding: 1vw;
     font-family: "menu-item";
     color: var(--menu_item);
-    font-size: clamp(1.5rem, 2rem, 3rem);
+    font-size: 1.5rem;
     transition: 0.5s;
   }
 
@@ -554,8 +554,8 @@ footer {
 }
 
 .footer_icon {
-  width: 5vh;
-  transform: translateY(-10%);
+  width: 3vh;
+  margin-right: 0.5vh;
 }
 
 .footer_some {
@@ -567,6 +567,7 @@ footer {
 
 .footer_some_icon {
   width: 7.5vh;
+  margin-top: 3vh;
 }
 
 @media screen and (min-width: 800px) {
@@ -590,7 +591,7 @@ footer {
 
   .footer_text {
     text-align: left;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .footer_input_container {
