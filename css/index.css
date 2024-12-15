@@ -62,7 +62,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, auto);
-    margin: 10vh 5vw -20vh 5vw;
+    margin: 10vh 5vw -25vh 5vw;
   }
 
   .lottie_header {
@@ -209,7 +209,7 @@
   .kvinder_section ul {
     place-self: center;
     font-size: 1.25rem;
-    margin: 0;
+    margin: 0 30%;
   }
 
   .kvinder_body {
@@ -283,12 +283,12 @@
   .email_form_help input {
     width: 25vw;
     height: 4vh;
-    margin: 0 auto 0 auto;
+    margin: 1vh auto 1vh auto;
     font-size: 1rem;
   }
 
   #help_button {
-    margin: auto;
+    margin: 1vh auto;
     width: 10vw;
     font-size: 1rem;
   }
