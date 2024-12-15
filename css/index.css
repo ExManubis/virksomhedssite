@@ -62,7 +62,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, auto);
-    margin: 10vh 5vw -15vh 5vw;
+    margin: 10vh 5vw -20vh 5vw;
   }
 
   .lottie_header {
@@ -91,7 +91,7 @@
     grid-column: 1;
     grid-row: 1 / span 3;
     place-self: start;
-    max-width: 80%;
+    max-width: 40vw;
     z-index: 1;
   }
 
