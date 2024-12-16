@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="da">
   <head>
     <meta charset="UTF-8" />
@@ -8,6 +8,9 @@
     <!-- links til css -->
     <link rel="stylesheet" href="../css/omos.css" />
     <link rel="stylesheet" href="../css/global.css" />
+
+    <!-- dims så robotter ikke kan finde ens side -->
+    <meta name="robots" content="noindex" />
   </head>
   <body>
     <main>
@@ -29,19 +32,8 @@
         </div>
       </nav>
       <div class="menu_wrapper">
-        <svg
-          class="menu_transition"
-          viewbox="0 0 100 100"
-          preserveAspectRatio="none"
-        >
-          <path
-            class="menu_path"
-            stroke="#701C1B"
-            fill="#701C1B"
-            stroke-width="3px"
-            vector-effect="non-scaling-stroke"
-            d="M 0 100 L 0 100 100 100 100 100 C 50 100, 50 100, 0 100"
-          ></path>
+        <svg class="menu_transition" viewbox="0 0 100 100" preserveAspectRatio="none">
+          <path class="menu_path" stroke="#701C1B" fill="#701C1B" stroke-width="3px" vector-effect="non-scaling-stroke" d="M 0 100 L 0 100 100 100 100 100 C 50 100, 50 100, 0 100"></path>
         </svg>
 
         <ul class="menu_links">
@@ -52,7 +44,7 @@
         </ul>
       </div>
 
-      <h1>Bag om HeyBOOB</h1>
+      <h1 class="om_hero">Bag om HeyBOOB</h1>
 
       <div class="grid-1">
         <h2>Founder</h2>
@@ -64,43 +56,56 @@
             <p>Founder & CEO af HeyBOOB</p>
           </div>
         </div>
+        <p class="malene_citat" id="kursiv">"Jeg har haft brystkræft to gange. Begge gange fandt jeg selv knuden, og sejlede rundt på et åbent hav uden viden og overblik. Smidt rundt mellem min praktiserende læge, sygehus, forskellige afdelinger, læger, kirurger, sygeplejersker, kommune og region. Sådan må det ikke være! Jeg har stiftet HeyBOOB, fordi jeg vil sikre at kvinder får den viden, indsigt, tryghed overblik og konkrete værktøjer, som jeg selv stod (og stadig står) og mangler!"</p>
+        <p class="malene_citat">- Malene Brandt</p>
       </div>
 
       <!-- nedstående er bestyrelse -->
-      <div class="grid-1">
-        <h2>Bestyrelse</h2>
-      </div>
-
-      <div class="gallery">
-        <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
-          <h3>Malene Brandt</h3>
-          <p>Founder & CEO</p>
-          <p>HeyBOOB</p>
+      <div class="bestyrelse">
+        <div class="grid-1">
+          <h2>Bestyrelse</h2>
         </div>
-        <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
-          <h3>Peter Albæk</h3>
-          <p>Rådgiver</p>
-          <p>Forperson</p>
+        <div class="custom-shape-divider-top-1734045582">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+          </svg>
         </div>
-        <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
-          <h3>Nina Schmidt</h3>
-          <p>Professor</p>
-          <p>Bestyrelsesmedlem</p>
+        <div class="custom-shape-divider-bottom-1734045432">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+          </svg>
         </div>
-        <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
-          <h3>Claus Johansen</h3>
-          <p>CEO</p>
-          <p>Global Health Invest</p>
-        </div>
-        <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
-          <h3>Lasse Vittus Hupfeld</h3>
-          <p>Partner</p>
-          <p>Bech-Bruun</p>
+        <div class="gallery">
+          <div class="info_kort">
+            <img src="../billeder/malene.png" alt="billede af ____ ____" />
+            <h3>Malene Brandt</h3>
+            <p>Founder & CEO</p>
+            <p>HeyBOOB</p>
+          </div>
+          <div class="info_kort">
+            <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
+            <h3>Peter Albæk</h3>
+            <p>Rådgiver</p>
+            <p>Forperson</p>
+          </div>
+          <div class="info_kort">
+            <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
+            <h3>Nina Schmidt</h3>
+            <p>Professor</p>
+            <p>Bestyrelsesmedlem</p>
+          </div>
+          <div class="info_kort">
+            <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
+            <h3>Claus Johansen</h3>
+            <p>CEO</p>
+            <p>Global Health Invest</p>
+          </div>
+          <div class="info_kort">
+            <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
+            <h3>Lasse Vittus Hupfeld</h3>
+            <p>Partner</p>
+            <p>Bech-Bruun</p>
+          </div>
         </div>
       </div>
 
@@ -110,7 +115,7 @@
       </div>
       <div class="gallery">
         <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
+          <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
           <h3>Claus Villumsen</h3>
           <p>CTO, KodeBaze</p>
         </div>
@@ -120,36 +125,48 @@
           <p>Founder & CEO</p>
         </div>
         <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
+          <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
           <h3>RUBY & RED</h3>
           <p>Agency + &CO Agency</p>
         </div>
       </div>
 
       <!-- nedstående er advisory board -->
-      <div class="grid-1">
-        <h2>Advisory board</h2>
-      </div>
-      <div class="gallery">
-        <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
-          <h3>Tine Engberg Damsgaard</h3>
-          <p>Professor og overlæge</p>
+      <div class="bestyrelse">
+        <div class="custom-shape-divider-top-1734045582">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+          </svg>
         </div>
-        <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
-          <h3>Birgitte Vrou Offersen</h3>
-          <p>Klinisk professor</p>
+        <div class="custom-shape-divider-bottom-1734045432">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+          </svg>
         </div>
-        <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
-          <h3>Jens Søndergaard</h3>
-          <p>Professor, speciallæge</p>
+        <div class="grid-1">
+          <h2>Advisory board</h2>
         </div>
-        <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
-          <h3>Anja Monrad</h3>
-          <p>Investor, rådgiver, bestyrelsesmedlem</p>
+        <div class="gallery">
+          <div class="info_kort">
+            <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
+            <h3>Tine Engberg Damsgaard</h3>
+            <p>Professor og overlæge</p>
+          </div>
+          <div class="info_kort">
+            <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
+            <h3>Birgitte Vrou Offersen</h3>
+            <p>Klinisk professor</p>
+          </div>
+          <div class="info_kort">
+            <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
+            <h3>Jens Søndergaard</h3>
+            <p>Professor, speciallæge</p>
+          </div>
+          <div class="info_kort">
+            <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
+            <h3>Anja Monrad</h3>
+            <p>Investor, rådgiver, bestyrelsesmedlem</p>
+          </div>
         </div>
       </div>
 
@@ -159,27 +176,27 @@
       </div>
       <div class="gallery">
         <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
+          <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
           <h3>Malina Sarwar</h3>
           <p>Medicinsk tatovør</p>
         </div>
         <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
+          <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
           <h3>her står navn på person</h3>
           <p>her står fancy information</p>
         </div>
         <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
+          <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
           <h3>her står navn på person</h3>
           <p>her står fancy information</p>
         </div>
         <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
+          <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
           <h3>her står navn på person</h3>
           <p>her står fancy information</p>
         </div>
         <div class="info_kort">
-          <img src="../billeder/malene.png" alt="billede af ____ ____" />
+          <img src="../billeder/placeholder.svg" alt="billede af ____ ____" />
           <h3>her står navn på person</h3>
           <p>her står fancy information</p>
         </div>
