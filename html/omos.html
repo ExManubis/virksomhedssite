@@ -11,6 +11,12 @@
 
     <!-- dims så robotter ikke kan finde ens side -->
     <meta name="robots" content="noindex" />
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png" />
+    <link rel="manifest" href="../site.webmanifest" />
   </head>
   <body>
     <main>
@@ -211,9 +217,40 @@
     </main>
 
     <footer>
-      <!-- her skal logo være -->
-      <!-- her skal sign up være -->
-      <!-- her skal kontakt være -->
+      <div class="footer_container">
+        <a href="#"><img src="../imgs/logo.svg" alt="HeyBOOB logo" class="footer_logo" /></a>
+
+        <div class="footer_input_container">
+          <p class="footer_text">Skriv dig op. Så hjælper du HeyBOOB og bliver blandt de første der får at vide når vores app er i luften.</p>
+          <form action="#" class="footer_input_container">
+            <div class="footer_forms_container">
+              <input type="text" placeholder="Skriv dit navn" class="footer_input" />
+              <br />
+              <input type="email" placeholder="Skriv din email" class="footer_input" />
+            </div>
+            <br />
+            <input type="submit" class="footer_button" value="Send" />
+          </form>
+        </div>
+        <div class="footer_contact">
+          <h3 class="footer_h3">Kontakt</h3>
+          <p>CEO & founder, Malene Brandt</p>
+          <br />
+          <div class="footer_info">
+            <img src="../imgs/email.svg" alt="" class="footer_icon" />
+            <a href="mailto:malene@malenebrandt.dk">malene@malenebrandt.dk</a>
+          </div>
+          <br />
+          <div class="footer_info">
+            <img src="../imgs/mobile.svg" alt="" class="footer_icon" />
+            <a href="tel:+4520491050">+45 20 49 10 50</a>
+          </div>
+          <div class="footer_some">
+            <a href="#"><img src="../imgs/instagram.svg" alt="" class="footer_some_icon" /></a>
+            <a href="#"><img src="../imgs/facebook.svg" alt="" class="footer_some_icon" /></a>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
