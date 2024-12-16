@@ -33,7 +33,7 @@
 
 .lottie-player {
   margin: auto;
-  width: 60vw;
+  width: 40vw;
   height: auto;
 }
 
@@ -62,7 +62,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, auto);
-    margin: 10vh 5vw -25vh 5vw;
+    margin: 10vh 5vw -20vh 5vw;
   }
 
   .lottie_header {
@@ -90,7 +90,7 @@
   .lottie-player {
     grid-column: 1;
     grid-row: 1 / span 3;
-    place-self: start;
+    place-self: start center;
     max-width: 40vw;
     z-index: 1;
   }
