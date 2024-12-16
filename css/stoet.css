@@ -222,8 +222,6 @@ P {
     grid-template-columns: 1fr 1fr;
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 3%;
-    margin-bottom: 3%;
   }
   .tekst1 p,
   .tekst1 h2 {
@@ -278,6 +276,11 @@ P {
     margin-right: 5vw;
   }
 
+  .tekst3 h2 {
+    margin-left: 15vw;
+    margin-bottom: 1%;
+  }
+
   .tekst4 {
     grid-column: 2;
   }
@@ -287,8 +290,13 @@ P {
     margin-right: 10vw;
   }
 
+  .tekst4 h2 {
+    margin-right: 15vw;
+    margin-bottom: 1%;
+  }
+
   .tak {
-    margin-top: 6%;
+    padding-bottom: 0;
   }
 
   .help p {
