@@ -91,7 +91,7 @@
     grid-column: 1;
     grid-row: 1 / span 3;
     place-self: end center;
-    max-width: 35vw;
+    max-width: 30vw;
     z-index: 1;
   }
 

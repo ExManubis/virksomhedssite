@@ -17,7 +17,7 @@ h2 {
   margin-left: 10vw;
   margin-right: 10vw;
 }
-P {
+main p {
   font-family: "body";
   padding-bottom: 8%;
   margin-left: 10vw;
@@ -121,7 +121,7 @@ P {
     margin-left: 10vw;
     margin-right: 10vw;
   }
-  p {
+  main p {
     font-family: "body";
     padding-bottom: 2%;
     margin-left: 10vw;
@@ -197,7 +197,7 @@ P {
     margin-top: 0;
   }
 
-  p {
+  main p {
     font-family: "body";
     padding-bottom: 4%;
     margin-left: 10vw;
