@@ -62,7 +62,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, auto);
-    margin: 10vh 5vw -20vh 5vw;
+    margin: 10vh 5vw -25vh 5vw;
   }
 
   .lottie_header {
@@ -78,20 +78,20 @@
   }
   .lottie_body {
     font-size: 1rem;
-    margin-top: 5vh;
+    margin-top: 3vh;
     margin-bottom: 2vh;
   }
 
   .lottie_list {
     margin: 0;
-    padding-bottom: 15vh;
+    padding-bottom: 25vh;
   }
 
   .lottie-player {
     grid-column: 1;
     grid-row: 1 / span 3;
-    place-self: start center;
-    max-width: 30vw;
+    place-self: end center;
+    max-width: 35vw;
     z-index: 1;
   }
 
@@ -199,15 +199,19 @@
   }
 
   .kvinder_section img {
-    height: 20vh;
+    height: clamp(15vh, 15vh, 20vh);
   }
-  .kvinder_flex_1 .kvinder_flex_2 .kvinder_flex_3 .kvinder_flex_4 {
+  .kvinder_flex_1,
+  .kvinder_flex_2,
+  .kvinder_flex_3,
+  .kvinder_flex_4 {
+    display: flex;
     flex-direction: row;
   }
   .kvinder_section ul {
     place-self: center;
     font-size: 1.25rem;
-    margin: 0 33%;
+    margin: 0 20%;
   }
 
   .kvinder_body {
