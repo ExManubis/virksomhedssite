@@ -68,17 +68,17 @@
   .lottie_header {
     grid-column: 2;
     grid-row: 1 / span 1;
-    place-self: end center;
-    margin-bottom: 2vh;
+    place-self: start center;
     padding-top: 10vh;
     font-size: 2rem;
   }
   .lottie_callout {
     font-size: 1.25rem;
+    place-self: start center;
   }
   .lottie_body {
     font-size: 1rem;
-    margin-top: 3vh;
+    margin-top: 5vh;
     margin-bottom: 2vh;
   }
 
