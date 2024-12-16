@@ -572,7 +572,7 @@ footer {
 
 @media screen and (min-width: 800px) {
   footer {
-    margin-top: 15vh;
+    margin-top: 10vh;
   }
   .footer_container {
     display: grid;

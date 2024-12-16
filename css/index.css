@@ -91,7 +91,7 @@
     grid-column: 1;
     grid-row: 1 / span 3;
     place-self: start center;
-    max-width: 40vw;
+    max-width: 30vw;
     z-index: 1;
   }
 
@@ -107,10 +107,6 @@
 @media screen and (min-width: 1150px) {
   .lottie_list {
     padding-bottom: 10vh;
-  }
-
-  .lottie-player {
-    max-width: 60%;
   }
 }
 
@@ -205,7 +201,9 @@
   .kvinder_section img {
     height: 20vh;
   }
-
+  .kvinder_flex_1 .kvinder_flex_2 .kvinder_flex_3 .kvinder_flex_4 {
+    flex-direction: row;
+  }
   .kvinder_section ul {
     place-self: center;
     font-size: 1.25rem;
