@@ -13,6 +13,7 @@
     width: 70%;
     margin: auto;
   }
+
   .h1_1 {
     margin-bottom: 15px;
     font-family: "hero";
@@ -37,7 +38,9 @@
     margin-bottom: 30px;
   }
 
-  p {
+  .p1,
+  .p2,
+  .p3 {
     font-family: body;
     font-size: 1.2rem;
     font-weight: 100;
@@ -122,7 +125,9 @@
     font-size: 3rem;
     text-align: center;
   }
-  p {
+  .p1,
+  .p2,
+  .p3 {
     font-family: body;
     font-size: 1.5rem;
     font-weight: 100;
@@ -143,7 +148,9 @@
     text-align: center;
   }
 }
-
+p {
+  font-family: body;
+}
 .blob {
   background-color: var(--section_bg);
   padding-top: 20vh;
