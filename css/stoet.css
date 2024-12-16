@@ -89,6 +89,25 @@ P {
   border-radius: var(--img_radius);
 }
 
+.blob {
+  background-color: var(--section_bg);
+  position: relative;
+  padding-top: 18vh;
+  padding-bottom: 10vh;
+}
+
+@media (max-width: 800px) {
+  .email_form {
+    margin-left: 7vw;
+    margin-right: 10vw;
+  }
+  .email_form .button {
+    margin-left: 24vw;
+    margin-right: 10vw;
+    margin-bottom: 8%;
+  }
+}
+
 @media (min-width: 800px) {
   h1 {
     font-size: 3.5rem;
@@ -112,7 +131,7 @@ P {
 
   .amba {
     font-family: "body";
-    padding-bottom: 5%;
+    padding-bottom: 0%;
     margin-left: 20vw;
     margin-right: 20vw;
     line-height: 150%;
@@ -247,7 +266,7 @@ P {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
-    padding-bottom: 8%;
+    padding-bottom: 4%;
   }
 
   .tekst3 {
@@ -266,5 +285,15 @@ P {
   .tekst4 p {
     margin-left: 5vw;
     margin-right: 10vw;
+  }
+
+  .tak {
+    margin-top: 6%;
+  }
+
+  .help p {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
   }
 }
