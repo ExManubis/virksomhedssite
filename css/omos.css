@@ -116,3 +116,15 @@ p {
 }
 
 /* ------ WAVE THINGY ------ */
+.bestyrelse {
+  background-color: var(--section_bg);
+  position: relative;
+  padding-top: 20vh;
+  padding-bottom: 15vh;
+}
+
+@media (min-width: 800px) {
+  .bestyrelse {
+    padding-top: 10vh;
+  }
+}
