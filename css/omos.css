@@ -128,13 +128,3 @@ p {
     padding-top: 10vh;
   }
 }
-
-/* ------ citat ------ */
-.malene_citat {
-  margin-left: 210px;
-  margin-right: 210px;
-}
-
-#kursiv {
-  font-style: italic;
-}
