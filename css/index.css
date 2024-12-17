@@ -75,6 +75,7 @@
   .lottie_callout {
     font-size: 1.25rem;
     place-self: start center;
+    margin-top: -5vh;
   }
   .lottie_body {
     font-size: 1rem;
