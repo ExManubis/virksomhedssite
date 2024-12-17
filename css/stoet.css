@@ -32,6 +32,7 @@ main p {
   margin: auto;
   border-radius: var(--img_radius);
   margin-bottom: 4%;
+  filter: grayscale(100%);
 }
 
 .frivillig_billede {
@@ -41,6 +42,7 @@ main p {
   margin-top: 4%;
   margin-bottom: 10%;
   border-radius: var(--img_radius);
+  filter: grayscale(100%);
 }
 
 .amb_billede2 {
@@ -50,6 +52,7 @@ main p {
   margin-top: 4%;
   margin-bottom: 10%;
   border-radius: var(--img_radius);
+  filter: grayscale(100%);
 }
 
 .amba {

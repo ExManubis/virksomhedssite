@@ -1,3 +1,10 @@
+.img1,
+.img2,
+.img3 {
+  border-radius: var(--img_radius);
+  width: 100%;
+}
+
 @media (max-width: 1400px) {
   .col h2 {
     margin-right: 40px;
@@ -12,6 +19,7 @@
   .col img {
     width: 70%;
     margin: auto;
+    border-radius: var(--img_radius);
   }
 
   .h1_1 {
@@ -50,9 +58,7 @@
     margin-right: 80px;
   }
   .grid_1-1-1 img {
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin: 20px auto 20px auto;
   }
   .grid_1-1 {
     margin-top: 95px;
