@@ -17,7 +17,7 @@
   text-align: center;
   font-size: clamp(1.125rem, 1.25rem, 1.25rem);
   padding: 2vh 0;
-  margin: 5vh auto;
+  margin: 1vh auto;
 }
 
 .lottie_section {
@@ -211,11 +211,12 @@
   .kvinder_section ul {
     place-self: center;
     font-size: 1.25rem;
-    margin: 0 20%;
+    margin: 0 auto;
+    display: table;
   }
 
   .h2_kvinder {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .kvinder_body {
@@ -293,8 +294,16 @@
     font-size: 1rem;
   }
 
+  .email_form_help input::placeholder {
+    color: #151414;
+  }
+
+  .email_form_help input:focus {
+    outline: none;
+  }
+
   #help_button {
-    margin: 1vh auto;
+    margin: 2vh auto;
     width: 10vw;
     font-size: 1rem;
   }
