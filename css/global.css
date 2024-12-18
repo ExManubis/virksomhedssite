@@ -570,6 +570,10 @@ footer {
   margin-top: 3vh;
 }
 
+.footer_p {
+  font-family: body;
+}
+
 @media screen and (min-width: 800px) {
   footer {
     margin-top: 10vh;
