@@ -17,8 +17,22 @@
 }
 .col img {
   width: 70%;
-  margin: 10vh auto;
+  margin: auto;
   border-radius: var(--img_radius);
+  position: relative;
+  z-index: 1;
+}
+
+.col ul {
+  list-style: none;
+  font-family: "text-l";
+  font-size: 2rem;
+}
+
+.col p {
+  margin-top: 5vh;
+  font-family: "text-l";
+  font-size: 1.5rem;
 }
 
 .h1_1 {
@@ -67,10 +81,8 @@ h3 {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 100px;
-    margin-left: 180px;
-    margin-right: 180px;
-    margin-top: 95px;
+    grid-gap: 10vh;
+    margin: 20vh 10vw -10vh 10vw;
   }
   .col {
     margin-top: 20px;
@@ -122,7 +134,6 @@ h3 {
   h3 {
     font-family: text-l;
     font-size: 2.2rem;
-    font-weight: 50;
   }
   .h1_2 {
     font-family: hero;
@@ -143,7 +154,6 @@ h3 {
     font-size: 1.9rem;
   }
   .col h1 {
-    margin-top: 10px;
     margin-bottom: 20px;
     font-size: clamp(4rem, 4.2rem, 4.5rem);
   }
