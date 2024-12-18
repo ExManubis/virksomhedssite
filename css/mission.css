@@ -18,7 +18,7 @@
   }
   .col img {
     width: 70%;
-    margin: auto;
+    margin: 10vh auto;
     border-radius: var(--img_radius);
   }
 
