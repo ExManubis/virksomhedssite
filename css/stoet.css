@@ -5,7 +5,7 @@ h1 {
   text-align: center;
   font-size: 2.5rem;
   padding-bottom: 4%;
-  padding-top: 95px;
+  padding-top: 15vh;
   margin-left: 10vw;
   margin-right: 10vw;
 }
@@ -113,12 +113,13 @@ main p {
 
 @media (min-width: 800px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     padding-bottom: 2%;
   }
 
   h2 {
     font-family: "text-xxl";
+    font-size: 3rem;
     text-align: center;
     padding-bottom: 1%;
     margin-left: 10vw;
@@ -299,7 +300,12 @@ main p {
   }
 
   .tak {
+    padding-top: 5vh;
     padding-bottom: 0;
+  }
+
+  .tak h2 {
+    margin-bottom: 5vh;
   }
 
   .help p {
