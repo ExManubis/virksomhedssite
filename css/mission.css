@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+.container {
+  padding: 5vh 10vw;
+}
+
 .col h2 {
   margin-right: 40px;
   margin-left: 60px;
