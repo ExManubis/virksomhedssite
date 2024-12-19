@@ -82,6 +82,10 @@ h3 {
 }
 
 @media (min-width: 1024px) {
+  .container {
+    padding: 0;
+  }
+
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
